@@ -1,0 +1,53 @@
+/* body{
+    background: blue;
+} */
+.accueil{
+    font-family: 'Courgette', sans-serif;
+    background-image: url('../img/header.jpg');
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -ms-background-size: cover;
+   background-size: cover;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+
+#logo{
+    width: 40%;
+    height: auto;
+}
+header{
+    margin: 0
+}
+.jumbotron{
+    background: none;
+    color: white;
+    margin: 0 auto;
+}
+
+.jumbotron h1{
+    font-size: 25px;
+}
+#articles div{
+    padding: 10px;
+}
+#articles h2{
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 20px;
+} 
+#articles h3{
+    font-family: 'Courgette', sans-serif;
+}
+#articles img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
