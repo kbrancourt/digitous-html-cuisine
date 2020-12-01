@@ -1,6 +1,4 @@
-/* body{
-    background: blue;
-} */
+
 .accueil{
     font-family: 'Courgette', sans-serif;
     background-image: url('../img/header.jpg');
@@ -27,6 +25,7 @@
 header{
     margin: 0
 }
+/* **************articles************ */
 .jumbotron{
     background: none;
     color: white;
@@ -50,4 +49,36 @@ header{
     width: 100%;
     height: auto;
     padding-bottom: 20px;
+}
+/* *********footer****** */
+#footer div{
+    padding: 0 10px;
+    background: black;
+    color:white;
+}
+
+#footer h3{
+    font-family: 'Courgette', sans-serif;
+    padding: 10px;
+}
+#footer a{
+    text-decoration: underline;
+    color: white;
+}
+/* ************newsletter */
+.form-inline{
+    background: black;
+    margin: 0;
+}
+.newsletter{
+    font-family: 'Courgette', sans-serif;
+    color: white;
+}
+.form-control{
+    width: 50%;
+}
+.btn-dark{
+    background: black;
+    color: white;
+    border: solid white;
 }
