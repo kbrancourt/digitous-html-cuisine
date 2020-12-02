@@ -1,11 +1,9 @@
 
 .accueil{
     font-family: 'Courgette', sans-serif;
-    background-image: url('../img/header.jpg');
-    -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -ms-background-size: cover;
-   background-size: cover;
+    background: linear-gradient(0deg, rgba( 0, 0 , 0, 0.7), rgba(0 , 0, 0, 0.7)), url('../img/header.jpg');
+    background-size: cover;
+    height: 50vh;
 }
 
 .navbar-brand{
@@ -17,7 +15,9 @@
 .navbar-toggler.toggler-example {
     cursor: pointer;
 }
-
+nav{
+    border-bottom: 2px solid white;
+}
 #logo{
     width: 40%;
     height: auto;
@@ -33,7 +33,7 @@ header{
 }
 
 .jumbotron h1{
-    font-size: 25px;
+    font-size: 50px;
 }
 #articles div{
     padding: 10px;
@@ -89,9 +89,10 @@ header{
 /* *****revoir le centrages des icones ds la div */
 .reseaux i{
     border: 2px solid white;
-    width: 40px;
-    height: 40px;
+    width: 31px;
+    height: 33px;
     color: black;
     background-color: white;
+    font-size: 30px;
 }
 
