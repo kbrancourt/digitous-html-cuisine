@@ -1,4 +1,8 @@
 
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight:lighter;
+}
 .accueil{
     font-family: 'Courgette', sans-serif;
     background: linear-gradient(0deg, rgba( 0, 0 , 0, 0.7), rgba(0 , 0, 0, 0.7)), url('../img/header.jpg');
@@ -50,6 +54,11 @@ header{
     height: auto;
     padding-bottom: 20px;
 }
+
+.media {
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+}
 /* *********footer****** */
 #footer{
     padding: 20px 0px;
@@ -87,7 +96,7 @@ header{
     border: solid white;
 }
 /* **********reseaux */
-/* *****revoir le centrages des icones ds la div */
+/* *****supprimer les espaces entre les */
 .reseaux i{
     border: 2px solid white;
     width: 31px;
