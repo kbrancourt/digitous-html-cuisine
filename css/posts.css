@@ -1,7 +1,6 @@
-
 .accueil{
     font-family: 'Courgette', sans-serif;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/articles/suzette/suzette-header.jpg');
     -webkit-background-size: cover;
    -moz-background-size: cover;
    -ms-background-size: cover;
@@ -22,35 +21,46 @@
     width: 40%;
     height: auto;
 }
+/* **********************header********** */
 header{
     margin: 0
 }
-/* **************articles************ */
 .jumbotron{
-    background: none;
+    background: rgba(13, 13, 14, 0.781);
     color: white;
-    margin: 0 auto;
+    margin: 50px;
+    padding: 0;
 }
 
 .jumbotron h1{
-    font-size: 25px;
-}
-#articles div{
+    font-size: 30px;
     padding: 10px;
 }
+/* ***************************posts********* */
 #articles h2{
-    font-family: 'Oswald', sans-serif;
-    padding-bottom: 20px;
-} 
-#articles h3{
     font-family: 'Courgette', sans-serif;
+    font-weight: bold;
 }
-#articles img{
-    width: 100%;
-    height: auto;
-    padding-bottom: 20px;
+#articles span{
+    font-size: 70px;
+    font-weight: bold;
+    color: grey;
 }
-/* *********footer****** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***************************footer***************** */
 #footer{
     padding: 25px 0;
 }
