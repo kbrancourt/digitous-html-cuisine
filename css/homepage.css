@@ -7,7 +7,6 @@ p{
     font-family: 'Courgette', sans-serif;
     background: linear-gradient(0deg, rgba( 0, 0 , 0, 0.7), rgba(0 , 0, 0, 0.7)), url('../img/header.jpg');
     background-size: cover;
-    height: 50vh;
 }
 
 .navbar-brand{
@@ -25,15 +24,13 @@ nav{
 #logo{
     width: 40%;
     height: auto;
+    margin: 0 auto;
 }
-header{
-    margin: 0
-}
+
 /* **************articles************ */
 .jumbotron{
     background: none;
     color: white;
-    margin: 0 auto;
 }
 
 .jumbotron h1{
@@ -61,21 +58,29 @@ header{
     height: auto;
     padding: 20px;
 }
-.search, .news{
+.search, .news, .reseaux-droit{
     display: none;
     background: none;
+    padding-bottom: 10px;
 }
+.reseaux-droit i{
+    padding-left: 15px;
+}
+
 input .search{
     margin: 0;
 }
 .btn-light{
     border: 2px solid black;
-    width: 250px;
+    width: 200px;
+}
+.btn-light a:hover{
+    color: black;
 }
 .media {
     font-weight: normal;
     font-family: 'Oswald', sans-serif;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 /* *********footer****** */
 .page-footer{
@@ -113,21 +118,21 @@ input .search{
     background: black;
     color: white;
     border: solid white;
-
+}
+.btn-dark a:hover{
+    color: white;
 }
 /* **********reseaux */
 /* *****supprimer les espaces entre les */
 .reseaux i{
-    border: 2px solid white;
     width: 31px;
     height: 33px;
-    color: black;
-    background-color: white;
+    color: white;
     font-size: 30px;
 }
 
 @media(min-width:992px){
-    .search, .news{
+    .search, .news, .reseaux-droit{
         display:block;
     }
 }

@@ -1,17 +1,15 @@
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight:lighter;
+}
 .accueil{
     font-family: 'Courgette', sans-serif;
-    background-image: url('../img/articles/suzette/suzette-header.jpg');
+    background: linear-gradient(0deg, rgba( 0, 0 , 0, 0.7), rgba(0 , 0, 0, 0.7)), url('../img/header.jpg');
     background-size: cover;
-    height: 50vh;
-    margin-bottom: 20px;
 }
 
 .navbar-brand{
     font-size: 25px;
-}
-nav{
-    background: rgba(0, 0, 0, 0.7);
-    border-bottom: 2px solid white;
 }
 .fa-1x {
     font-size: 1.5rem;
@@ -19,19 +17,20 @@ nav{
 .navbar-toggler.toggler-example {
     cursor: pointer;
 }
-
+nav{
+    border-bottom: 2px solid white;
+}
 #logo{
     width: 40%;
     height: auto;
+    margin: 0 auto;
 }
-/* **********************header********** */
-header{
-    margin: 0
-}
+
+/* **************articles************ */
 .jumbotron{
     background: none;
-    margin: 35px 0;
-} 
+    color: white;
+}
 
 .jumbotron h1{
     font-size: 30px;
@@ -39,7 +38,7 @@ header{
     color: white;
 }
 /* ***************************posts********* */
-#articles h2{
+#articles h2, h4{
     font-family: 'Courgette', sans-serif;
     font-weight: bold;
 }
@@ -48,7 +47,18 @@ header{
     font-weight: bold;
     color: grey;
 }
+.search, .news, .reseaux-droit{
+    display: none;
+    background: none;
+    padding-bottom: 10px;
+}
+.reseaux-droit i{
+    padding-left: 2px;
+}
 
+input .search{
+    margin: 0;
+}
 /* ***************a prpos de l'auteur********/
 
 .author img{
@@ -64,10 +74,13 @@ header{
 /* *******************formulaire**** */
 label{
     font-family: 'Courgette', sans-serif;
-
+}
+.form-control{
+    width: 300px;
 }
 
 /* ------------------commentaires****** */
+
 .comments img{
     width: 90px;
     height: 90px;
@@ -79,12 +92,29 @@ label{
     padding: 10px;
 }
 
-/* ***************************footer***************** */
-/* *********footer****** */
+.search, .news, .reseaux-droit{
+    display: none;
+    background: none;
+    padding-bottom: 10px;
+}
+.reseaux-droit i{
+    padding-left: 15px;
+}
+
+input .search{
+    margin: 0;
+}
+.btn-light{
+    border: 2px solid black;
+    width: 200px;
+}
+.btn-light a:hover{
+    color: black;
+}
 .media {
     font-weight: normal;
     font-family: 'Oswald', sans-serif;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 /* *********footer****** */
 .page-footer{
@@ -107,7 +137,7 @@ label{
 }
 /* ************newsletter */
 
-.form-inline{
+.form-inline footer{
     background: black;
     padding-top: 10px;
 }
@@ -123,13 +153,20 @@ label{
     color: white;
     border: solid white;
 }
+.btn-dark a:hover{
+    color: white;
+}
 /* **********reseaux */
 /* *****supprimer les espaces entre les */
 .reseaux i{
-    border: 2px solid white;
-    width: 40px;
-    height: 40px;
-    color: black;
-    background-color: white;
-    font-size: 20px;
+    width: 31px;
+    height: 33px;
+    color: white;
+    font-size: 30px;
+}
+
+@media(min-width:992px){
+    .search, .news, .reseaux-droit{
+        display:block;
+    }
 }
