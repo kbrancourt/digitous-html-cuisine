@@ -58,23 +58,24 @@ header{
 .media {
     font-weight: normal;
     font-family: 'Oswald', sans-serif;
+    padding-bottom: 20px;
 }
 /* *********footer****** */
-#footer{
-    padding: 20px 0px;
-
+.page-footer{
+    padding: 30px 0px;
+    width: 100%;
 }
-#footer div{
+.page-footer{
     padding: 0 10px;
     background: black;
     color:white;
 }
 
-#footer h3{
+.page-footer h3{
     font-family: 'Courgette', sans-serif;
     padding: 10px;
 }
-#footer a{
+.page-footer a{
     text-decoration: underline;
     color: white;
 }
@@ -82,6 +83,7 @@ header{
 
 .form-inline{
     background: black;
+    padding-top: 10px;
 }
 .newsletter{
     font-family: 'Courgette', sans-serif;

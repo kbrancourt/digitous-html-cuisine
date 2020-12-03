@@ -81,20 +81,27 @@ label{
 
 /* ***************************footer***************** */
 /* *********footer****** */
-#footer{
-    padding: 25px 0;
+.media {
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 20px;
 }
-#footer div{
+/* *********footer****** */
+.page-footer{
+    padding: 30px 0px;
+    width: 100%;
+}
+.page-footer{
     padding: 0 10px;
     background: black;
     color:white;
 }
 
-#footer h3{
+.page-footer h3{
     font-family: 'Courgette', sans-serif;
     padding: 10px;
 }
-#footer a{
+.page-footer a{
     text-decoration: underline;
     color: white;
 }
@@ -102,6 +109,7 @@ label{
 
 .form-inline{
     background: black;
+    padding-top: 10px;
 }
 .newsletter{
     font-family: 'Courgette', sans-serif;
@@ -116,10 +124,7 @@ label{
     border: solid white;
 }
 /* **********reseaux */
-/* *****revoir le centrages des icones ds la div */
-.reseaux{
-    margin: 0px;
-}
+/* *****supprimer les espaces entre les */
 .reseaux i{
     border: 2px solid white;
     width: 31px;
@@ -128,5 +133,3 @@ label{
     background-color: white;
     font-size: 30px;
 }
-
-
