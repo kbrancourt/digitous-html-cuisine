@@ -39,22 +39,39 @@ header{
 .jumbotron h1{
     font-size: 50px;
 }
-#articles div{
+.suzette, .metro, .vitaly{
     padding: 10px;
+}
+#articles{
+    padding-top: 20px;
 }
 #articles h2{
     font-family: 'Oswald', sans-serif;
-    padding-bottom: 20px;
 } 
 #articles h3{
     font-family: 'Courgette', sans-serif;
+    padding: 10px;
+}
+#articles p{
+    font-family: 'Oswald', sans-serif;
+    padding: 0 10px;
 }
 #articles img{
     width: 100%;
     height: auto;
-    padding-bottom: 20px;
+    padding: 20px;
 }
-
+.search, .news{
+    display: none;
+    background: none;
+}
+input .search{
+    margin: 0;
+}
+.btn-light{
+    border: 2px solid black;
+    width: 250px;
+}
 .media {
     font-weight: normal;
     font-family: 'Oswald', sans-serif;
@@ -81,7 +98,7 @@ header{
 }
 /* ************newsletter */
 
-.form-inline{
+.form-inline footer{
     background: black;
     padding-top: 10px;
 }
@@ -96,6 +113,7 @@ header{
     background: black;
     color: white;
     border: solid white;
+
 }
 /* **********reseaux */
 /* *****supprimer les espaces entre les */
@@ -108,3 +126,8 @@ header{
     font-size: 30px;
 }
 
+@media(min-width:992px){
+    .search, .news{
+        display:block;
+    }
+}
