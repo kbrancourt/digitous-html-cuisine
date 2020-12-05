@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid m-0">
         <!-- ----------homepage------- -->
 
         <!-- ---------nav bar-------- -->
@@ -27,7 +27,7 @@
                 aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
                         </li>
@@ -47,7 +47,7 @@
             <!-- ---------header---------- -->
             <header>
                 <div class="jumbotron">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="row text-center">
                             <div class="col-6 offset-3">
                                 <h1>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h1>
@@ -117,9 +117,9 @@
         </div>
 <!-- -----------------------a propos de l'auteur -->
         <hr>
-        <div class="container-fluid d-flex justify-content-lg-center">
+        <div class="container-fluid ">
             <div class="row author ">
-                <div class="col-sm-3 col-lg-6">
+                <div class="col-sm-3 col-lg-4 d-flex justify-content-end">
                     <img src="../img/team/antoine.jpg" alt="photo d'Antoine">
                 </div>
                 <div class="col-sm-9 col-lg-6">
@@ -149,37 +149,37 @@
         </form>
         
     <!-- -----------------------commentaires---- -->
-        <div class="container-fluid">
-            <div class="row comments">
-                <h2>Dites nous ce que vous en avez pensé</h2>
-                <div class="col-3">
-                    <img src="../img/logo_square_black.png" alt="logo noir">
+        <div class="container">
+                <h2 class="text-center">Dites nous ce que vous en avez pensé</h2>
+                <div class="row comments">
+                    <div class="col-sm-3 col-lg-4 d-flex justify-content-end">
+                        <img src="../img/logo_square_black.png" alt="logo noir">
+                    </div>
+                    <div class="col-sm-9 col-lg-8">
+                        <h3>Mathieu</h3>
+                        <p>J'ai testé moi aussi, et j'ai été agréablement surpris.</p>
+                    </div>
                 </div>
-                <div class="col-9">
-                    <h3>Mathieu</h3>
-                    <p>J'ai testé moi aussi, et j'ai été agréablement surpris.</p>
-                </div>
-            </div>
 
-            <div class="row comments">
-                <div class="col-3">
-                    <img src="../img/logo_square_black.png" alt="logo noir">
+                <div class="row comments">
+                    <div class="col-sm-3 col-lg-4 d-flex justify-content-end">
+                        <img src="../img/logo_square_black.png" alt="logo noir">
+                    </div>
+                    <div class="col-sm-9 col-lg-8">
+                        <h3>Suzette</h3>
+                        <p>Merci pour votre revue excellente. Toutes les personnes qui viendront et diront qu'elles ont connu le restaurant grâce à cet article auront un dessert gratuit. Excellente journée à vous !</p>
+                    </div>
                 </div>
-                <div class="col-9">
-                    <h3>Suzette</h3>
-                    <p>Merci pour votre revue excellente. Toutes les personnes qui viendront et diront qu'elles ont connu le restaurant grâce à cet article auront un dessert gratuit. Excellente journée à vous !</p>
-                </div>
-            </div>
 
-            <div class="row comments">              
-                <div class="col-3 offset-3">
-                    <img src="../img/logo_square_black.png" alt="logo noir">
+                <div class="row comments">              
+                    <div class="col-sm-3 offset-3 col-lg-3 d-flex justify-content-end">
+                        <img src="../img/logo_square_black.png" alt="logo noir" class="logo-gris">
+                    </div>
+                    <div class="col-sm-6 col-lg-6">
+                        <h3 class="text-secondary">Haterz</h3>
+                        <p>Ca sent le coup marketing à plein nez !</p>
+                    </div>
                 </div>
-                <div class="col-6">
-                    <h3 class="text-secondary">Haterz</h3>
-                    <p>Ca sent le coup marketing à plein nez !</p>
-                </div>
-            </div>
         </div>
 
     <!-- -----------------footer------ -->
@@ -219,7 +219,7 @@
                     <div class="col-lg-4">
                         <h4 class="newsletter text-lg-left">Newsletter</h4>
                         <form class="form-inline footer">
-                            <input type="email" class="form-control" placeholder="Email...">              
+                            <input type="email" class="form-control" placeholder="Email..."/>              
                             <button type="submit" class="btn btn-dark mb-3">S'inscrire</button>           
                         </form>
                         <div class="reseaux ">
