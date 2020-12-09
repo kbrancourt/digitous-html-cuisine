@@ -1,0 +1,64 @@
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight:lighter;
+}
+.accueil{
+    font-family: 'Courgette', sans-serif;
+    background: linear-gradient(0deg, rgba( 0, 0 , 0, 0.7), rgba(0 , 0, 0, 0.7)), url('../img/header.jpg');
+    background-size: cover;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+nav{
+    border-bottom: 2px solid white;
+}
+nav li{
+    font-family: 'Oswald', sans-serif;
+}
+#logo{
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* **************articles************ */
+.jumbotron{
+    background: none;
+    color: white;
+}
+
+.jumbotron h1{
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+/* *********************recette***** */
+.infos{
+    padding-top: 20px;
+
+}
+.preparation, .time{
+    border: 2px solid black;
+    background: grey;
+    width: 180px;
+    height: 90px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+/* .list-unstyled{
+    border: 2px solid green;
+}
+.grey{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 5px 10px;
+} */
